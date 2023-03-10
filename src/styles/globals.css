@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bruta";
+  src: url("../../public/fonts/BrutaProExtended-ExtraBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bruta Bold";
+  src: url("../../public/fonts/BrutaProExtended-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* body {
+  font-family: "Bruta";
+} */
+
+html {
+  scroll-behavior: smooth;
+}
